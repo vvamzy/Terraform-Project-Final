@@ -1,0 +1,1 @@
+Define cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.

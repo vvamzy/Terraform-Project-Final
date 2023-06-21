@@ -1,0 +1,137 @@
+{
+  "version": 4,
+  "terraform_version": "1.4.6",
+  "serial": 75,
+  "lineage": "5704055a-f5eb-17fe-066d-6bfe0ff34ad6",
+  "outputs": {
+    "hello7-id": {
+      "value": "0777",
+      "type": "string"
+    },
+    "subnets": {
+      "value": {
+        "module_A": "172.0.0.0/20",
+        "module_B": "172.0.16.0/20"
+      },
+      "type": [
+        "map",
+        "string"
+      ]
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "hello",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "Define cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.",
+            "content_base64": null,
+            "content_base64sha256": "nfX2t9U3MBchAPjBqHToXdgULz83C3rmXYMT4Df3Uoo=",
+            "content_base64sha512": "y4ZcedU+DOzUydGaYmqKl0EVCIJfP38X5bVxngCu9/VJ+lXMFxd+tT9Hk8BnMLPCB0YXCw5KBBPFXqHgPhLu6g==",
+            "content_md5": "2e5dfcbe12fcd0701935930a220ff02e",
+            "content_sha1": "9999d0b4173164340b27b81ccecc3d8091dde5ca",
+            "content_sha256": "9df5f6b7d53730172100f8c1a874e85dd8142f3f370b7ae65d8313e037f7528a",
+            "content_sha512": "cb865c79d53e0cecd4c9d19a626a8a97411508825f3f7f17e5b5719e00aef7f549fa55cc17177eb53f4793c06730b3c20746170b0e4a0413c55ea1e03e12eeea",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "hello.txt",
+            "id": "9999d0b4173164340b27b81ccecc3d8091dde5ca",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "hi",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "Define cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.",
+            "content_base64": null,
+            "content_base64sha256": "nfX2t9U3MBchAPjBqHToXdgULz83C3rmXYMT4Df3Uoo=",
+            "content_base64sha512": "y4ZcedU+DOzUydGaYmqKl0EVCIJfP38X5bVxngCu9/VJ+lXMFxd+tT9Hk8BnMLPCB0YXCw5KBBPFXqHgPhLu6g==",
+            "content_md5": "2e5dfcbe12fcd0701935930a220ff02e",
+            "content_sha1": "9999d0b4173164340b27b81ccecc3d8091dde5ca",
+            "content_sha256": "9df5f6b7d53730172100f8c1a874e85dd8142f3f370b7ae65d8313e037f7528a",
+            "content_sha512": "cb865c79d53e0cecd4c9d19a626a8a97411508825f3f7f17e5b5719e00aef7f549fa55cc17177eb53f4793c06730b3c20746170b0e4a0413c55ea1e03e12eeea",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "hi.txt",
+            "id": "9999d0b4173164340b27b81ccecc3d8091dde5ca",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "local-variable",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "default",
+            "content_base64": null,
+            "content_base64sha256": "N6juwc4ZaH0TL+KQUdymKdFk4sSVi6FB1fQTOjPwaI8=",
+            "content_base64sha512": "FiXNt10l2faZ/Sd59ECVtuMgdn9gbwlet+2rVYHp40Qa27DWKIMvfcRXSnejgpc84ikRt+TfKp0saTgmu9ElvA==",
+            "content_md5": "c21f969b5f03d33d43e04f8f136e7682",
+            "content_sha1": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "content_sha256": "37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f",
+            "content_sha512": "1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc",
+            "directory_permission": "0777",
+            "file_permission": "600",
+            "filename": "hello7.txt",
+            "id": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "map-variable",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "New Delhi",
+            "content_base64": null,
+            "content_base64sha256": "ntbQ5hgWpCTQ4IKV3IHW5z7gf98Tj9Ffir7EHrYFq7Q=",
+            "content_base64sha512": "b/HGKyauEbhjCzn+cRC09Xs0GdU3XJQulH7SP2wKj9ojg8waOR0XV8iBuUS0Us+NAVc4qJODicft12trA8N2Wg==",
+            "content_md5": "44d20cf7ad66cac40bd6fc87d4eab2e2",
+            "content_sha1": "65af62e74232ff0ede583dc706132430380f3d19",
+            "content_sha256": "9ed6d0e61816a424d0e08295dc81d6e73ee07fdf138fd15f8abec41eb605abb4",
+            "content_sha512": "6ff1c62b26ae11b8630b39fe7110b4f57b3419d5375c942e947ed23f6c0a8fda2383cc1a391d1757c881b944b452cf8d015738a8938389c7edd76b6b03c3765a",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "hello6.txt",
+            "id": "65af62e74232ff0ede583dc706132430380f3d19",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
