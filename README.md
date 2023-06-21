@@ -1,2 +1,4 @@
 # Terraform-Project-Final
-This contains my code for my terraform project.
+This contains the dev code for my terraform project.
+
+**do not __clone or execute__ any config in this branch.**
